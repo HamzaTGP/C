@@ -1,0 +1,50 @@
+#include <stdio.h> is always present
+
+lines of code always end with a semi colon (;)
+main() function is the code which will be executed
+int main() can have the whole command in one line, seperating each line of code with a ;
+return 0 is used to end the main function
+
+\n is used to add a new line in a printf function
+\n is called an "escape sequence", there are many other escape sequences
+\t is to create a horizontal tab
+\\ is to insert backslashes
+\" is to insert double quotes
+
+// is used to add a single line comment
+/* <text here> */ is used to add a multi line comment
+
+you can specify variables using the following format
+type variableName = value;
+type being the variable type (int, float, char and etc)
+you can also specify it what type a variable is and then specify its value in a later line
+you can also always change the value of a variable anywhere by typing variableName = <new value>
+variables need to specified inside int main()
+to print a variable, you need to append %<c,f,d, etc> to print
+%c is for char, %f is for float, %d is for int
+You can specify multiple variables with one line by seperating by comma
+you can set variables to have the same value by equating them to be equal to each other and then a value in the end
+you should always choose descriptive names for variables
+
+int (2 or 4 bytes); stores whole numbers, without decimals
+float (4 bytes); stores fractional numbers, containing one or more decimals. Sufficient for storing 7 decimal digits
+double (8 bytes); same as floats, except they can store 15 decimal digits
+char (1 byte); stores a single character/letter/number, or ASCII values
+
+%d or %is are for ints
+%f are for floats
+%lf are for doubles
+%c are for chars
+%s are for strings
+
+You can set variables to be read only, unchangable by you or anyone else using const then declaring the variable, for example:
+const int = 7
+A good practice is to set constant variables always in all caps
+
+% means to return the division remainder
+++ to increase the value by 1
+-- to decrease the value by 1
+
+&& (logical and); return true if both statements are true
+|| (logical or); returns true if one of the statements is true
+! (logcial not); reverse the result, return true for a false statement and vice versa
