@@ -81,6 +81,6 @@ int main()
 
 int main()
 {
-  printf("Test");
+  printf("Test, 123");
 }
 
