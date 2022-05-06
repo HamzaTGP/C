@@ -79,8 +79,42 @@ int main()
   }
 } */
 
+/*
 int main()
 {
+	int c;
+	int b;
 
+	c = 30;
+	b = 0;
+
+	while(b < 30)
+	{
+		printf("c's value is %d, and b's value is %d. Only %d left to go!\n", c, b, 30-b);
+		c -= 1;
+		b += 1;
+	}
+} */
+
+/*
+int main()
+{
+	long nc;
+
+	nc = 0;
+	while(getchar() != 0)
+	{
+		nc++;
+		printf("%ld\n", nc);
+	}
+	return 0;
+} */
+
+int main()
+{
+	double nc;
+
+	for(nc = 0; getchar() != EOF; nc++)
+		;
+	printf("%.0f\n", nc);
 }
-
