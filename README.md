@@ -1,0 +1,1 @@
+This repo is my updated work as I follow the C programming book (Second Edition, ANSI C) made by Dennis Ritchie and Brian W. Kernighan. It contains some of my solutions for exercises and some messing around I did
