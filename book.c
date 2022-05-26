@@ -110,10 +110,24 @@ int main()
 	return 0;
 } */
 
+/*
 int main()
 {
 	double nc;
 
 	for(nc = 0; getchar() != EOF; nc++)
 	printf("%.0f\n", nc);
+} */
+
+/* count lines in input */
+int main()
+{
+  int c, nl;
+
+  nl = 0;
+  while ((c = getchar()) != EOF)
+    if (c == '\n')
+      ++nl;
+  printf("%d\n", nl);
 }
+
